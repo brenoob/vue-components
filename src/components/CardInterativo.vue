@@ -8,7 +8,7 @@ const flipCard = () => {
   isFlipped.value = !isFlipped.value
 }
 
-onMounted(isFlipped, () => {
+onMounted(() => {
   flipCard()
 })
 </script>
